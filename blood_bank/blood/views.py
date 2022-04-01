@@ -48,7 +48,7 @@ def register(request):
 
                 user.save()
                 print("User Created")
-                return redirect('login')
+                return redirect('/login')
 
         else:
 
