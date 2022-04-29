@@ -169,10 +169,11 @@
            function closePopup(){
            popup.classList.remove("open-popup");
            }
-
+       </script>
 <!--  ########################################## District and Branch ###############################################  -->
 
-
+           <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+           <script>
            $("#id_district").change(function () {
            const url = $("#donorForm").attr("data-branch-url");
            const districtId = $(this).val();
